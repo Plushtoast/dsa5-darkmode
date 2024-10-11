@@ -8,3 +8,6 @@ To activate install the module and select the dark mode skin in the TDE/DSA game
 Make sure to set foundry to dark mode too.
 
 THIS IS IN NO WAY A REAL DARKMODE, IF YOU WANT THIS TO HAPPEN - ADD PULL REQUESTS
+
+
+You can also take this repository as an example on how to create skins for TDE/DSA
