@@ -1,0 +1,66 @@
+{
+  "title": "The Dark Eye 5th Ed. - Dark Mode Skin",
+  "description": "A dark mode skin for the Dark Eye 5th Edition system.",
+  "version": "6.0.1",
+  "url": "https://github.com/Plushtoast/dsa5-foundryVTT",
+  "manifest": "https://raw.githubusercontent.com/Plushtoast/dsa5-darkmode/main/module.json",
+  "download": "https://github.com/Plushtoast/dsa5-darkmode/releases/download/6.0.1/cibola8-6.0.1.zip",
+  "languages": [
+    {
+      "lang": "de",
+      "name": "Deutsch",
+      "path": "lang/de.json"
+    },
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "esmodules": [
+    "modules/init.js"
+  ],
+  "styles": [
+    "styles/css/css.css"
+  ],
+  "packs": [
+    
+  ],
+  "id": "dsa5-darkmode",
+  "authors": [
+    {
+      "name": "Huepfklotz"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dsa5",
+        "type": "system",
+        "compatibility": {
+          "minimum": "6.0.0"
+        }
+      }
+    ]
+  },
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12",
+    "maximum": "12"
+  },  
+  "flags": {
+    "hotReload": {
+      "extensions": [
+        "css",
+        "html",
+        "hbs",
+        "json"
+      ],
+      "paths": [
+        "templates",
+        "styles/css",
+        "lang"
+      ]
+    }
+  }
+}

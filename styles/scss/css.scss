@@ -1,0 +1,73 @@
+.dsa5-darkmode {
+    .window-app .window-content {
+        background: rgba(0, 0, 0, 0.8);
+        color: var(--color-text-light-primary);
+
+        input[type="text"], input[type="number"], input[type="password"], input[type="date"], input[type="time"], input[type="search"] {
+            color: var(--color-text-light-primary);
+        }
+
+        .label-text, .table-title, .table-header {
+            color: var(--color-text-dark-primary)
+        }
+
+        .label-text,
+        .table-title{
+            background: linear-gradient(90deg, rgb(153, 93, 64) 0%, rgb(111, 96, 96) 100%);
+        }
+
+        select {
+            background: transparent;
+            color: var(--color-text-light-primary);
+        }
+
+        .combat-actions .combat-action{
+            color: unset;
+        }
+
+        .skills .d20 {
+            z-index: 1;
+            font-family: unset;
+            
+            &:after {
+                opacity: 1;
+                z-index: -1;
+            }
+        }
+        
+        .die-ff, .die-ge, .die-ko, .die-kk,
+        .diet-ff, .diet-ge, .diet-ko, .diet-kk {
+            color: var(--color-text-dark-primary);
+        }
+        .diet-ch {
+            color: var(--color-text-light-primary);
+        }
+
+        .item-header {
+            text {
+                fill: white;
+            }
+        }
+    }
+
+    .cards .item {
+        box-shadow: 0 0 12px rgb(179, 114, 42) inset;
+    }
+    
+    .window-app .window-content button,
+    form button,
+    .dialog .dialog-buttons button {
+        background: black;
+        color: var(--color-text-light-primary)
+    }
+
+    .advance {
+        color: unset;
+    }
+
+    #chat-form textarea,
+    .chat-message {
+        background: rgba(0, 0, 0, 0.8);
+        color: var(--color-text-light-primary);
+    }
+}
