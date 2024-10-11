@@ -11,3 +11,5 @@ THIS IS IN NO WAY A REAL DARKMODE, IF YOU WANT THIS TO HAPPEN - ADD PULL REQUEST
 
 
 You can also take this repository as an example on how to create skins for TDE/DSA
+
+![Demo](demo/screenshot.webp)
